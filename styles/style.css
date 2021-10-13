@@ -253,7 +253,6 @@ li.sante {
   .options {
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
     padding-bottom: 2rem;
   }
   .options li {
@@ -270,7 +269,7 @@ li.sante {
     display: none;
   }
   .column img {
-    width: 35rem;
+    max-width: 35rem;
     margin-left: auto;
   }
 }
